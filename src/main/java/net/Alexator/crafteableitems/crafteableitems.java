@@ -1,6 +1,7 @@
 package net.Alexator.crafteableitems;
 
 import com.mojang.logging.LogUtils;
+import net.Alexator.crafteableitems.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,6 +23,7 @@ public class crafteableitems {
     public crafteableitems() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

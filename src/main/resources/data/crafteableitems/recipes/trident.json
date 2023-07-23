@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#H#",
+    " H "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "H": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:trident"
+  }
+}

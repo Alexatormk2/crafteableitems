@@ -1,0 +1,23 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G#G",
+    "A A",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "crafteableitems:reinforcedleather"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "crafteableitems:reinforcedstring"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra"
+  }
+}

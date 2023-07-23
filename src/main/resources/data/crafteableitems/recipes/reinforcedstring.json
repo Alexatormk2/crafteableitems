@@ -1,0 +1,23 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GAG",
+    "#A#",
+    "GAG"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:string"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "crafteableitems:reinforcedstring"
+  }
+}
